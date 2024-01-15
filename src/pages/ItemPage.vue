@@ -65,4 +65,4 @@ function getAmount(amount: number) {
   router.push("/carrinho");
 }
 </script>
-../stores/cart
+

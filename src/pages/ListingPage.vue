@@ -9,7 +9,6 @@
   }
   &__pagination-wrapper {
     width: 100%;
-    padding: 2rem 1rem;
     display: flex;
     justify-content: center;
     margin-top: 2rem;

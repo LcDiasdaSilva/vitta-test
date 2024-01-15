@@ -36,7 +36,6 @@
     <main>
       <router-view></router-view>
     </main>
-    {{ route.meta.hideFooter }}
     <footer>Desenvolvido por @LcDias</footer>
   </div>
 </template>
