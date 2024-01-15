@@ -72,12 +72,7 @@
       <div
         style="display: flex"
         v-if="CURRENT_PAGE < PAGES_NUMBER - 3 && PAGES_NUMBER != FIRST_PAGE + 3"
-      >
-        <span>... </span>
-        <span class="pagination__last-page">
-          {{ PAGES_NUMBER }}
-        </span>
-      </div>
+      ></div>
       <div
         @click="next()"
         v-if="CURRENT_PAGE != PAGES_NUMBER && CURRENT_PAGE"
@@ -86,6 +81,7 @@
         &#10097;
       </div>
     </div>
+    <div style="text-align: center">Total de paginas: {{ PAGES_NUMBER }}</div>
   </div>
 </template>
 <script setup lang="ts">
