@@ -33,7 +33,7 @@
 <template>
   <main class="item-purchase">
     <div class="item-purchase__item">
-      <label for="value-unit-item"  class="item-purchase__title">Preço:</label>
+      <label for="value-unit-item" class="item-purchase__title">Preço:</label>
       <div id="value-unit-item" class="item-purchase__value">
         {{ priceFormatted }}
       </div>
@@ -46,20 +46,22 @@
     </div>
     <div>
       <div class="item-purchase__input-amount">
-        <button id="btn-remove-unit" type="button" @click="removeUnit">-</button>
+        <button id="btn-remove-unit" type="button" @click="removeUnit">
+          -
+        </button>
         <input id="input-item-amount" disabled v-model="amount" type="text" />
-        <button id="btn-add-unit" type="button" @click="addUnit"> + </button>
+        <button id="btn-add-unit" type="button" @click="addUnit">+</button>
       </div>
       <Button
         @click="purchase"
         class="mt-4"
         id="btn-buy"
-        type="button"
         label="Comprar"
         maxWidth="100%"
         :primary="true"
         size="large"
         :disabled="false"
+        type="button"
       ></Button>
     </div>
   </main>
@@ -70,7 +72,7 @@ import Button from "./Button.vue";
 
 const props = defineProps<{
   price: number;
-  priceFormatted: string ;
+  priceFormatted: string;
 }>();
 
 const totalPrice = computed(() => {

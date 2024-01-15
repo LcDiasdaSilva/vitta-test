@@ -63,7 +63,7 @@
     :class="classes"
     data-test="lc-simple-button"
     :disabled="disabled"
-    type="button"
+    :type="type"
   >
     {{ label }}
   </button>
@@ -73,6 +73,7 @@ import { computed } from "vue";
 
 const props = withDefaults(
   defineProps<{
+    type?: "button" | "submit" | "reset" 
     label?: string;
     maxWidth?: string;
     minWidth?: string;

@@ -1,6 +1,6 @@
 # vitta
 
-Demo [click to access the project](https://nuxt-products-rouge.vercel.app/).
+Demo [click to access the project](https://vitta-test.pages.dev/).
 
 ## Customize configuration
 
