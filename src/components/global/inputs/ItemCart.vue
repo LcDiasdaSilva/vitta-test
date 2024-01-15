@@ -37,7 +37,7 @@
     button {
       background: #000;
       color: #fff;
-      padding: 0 2rem;
+      width: 2rem;
     }
   }
 }

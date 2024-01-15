@@ -10,11 +10,11 @@
     font-size: 2rem;
     font-weight: 400;
   }
-
   &__input-amount {
+    display: flex;
+    max-width: 100%;
     margin: 1rem 0;
     border: solid 1px #000;
-    display: flex;
     justify-content: space-between;
     input {
       text-align: center;
@@ -25,7 +25,7 @@
     button {
       background: #11111f;
       color: #fff;
-      padding: 0 3rem;
+      width: 4rem;
     }
   }
 }
@@ -44,7 +44,7 @@
         {{ totalPrice }}
       </div>
     </div>
-    <div>
+    <div style="width: 100%">
       <div class="item-purchase__input-amount">
         <button id="btn-remove-unit" type="button" @click="removeUnit">
           -
