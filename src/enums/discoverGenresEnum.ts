@@ -1,0 +1,31 @@
+const discoverGenresList = [
+  { value: '10759', label: 'Action e Adventure', type: ['series'] },
+  { value: '16', label: 'Animação', type: ['movies', 'series'] },
+  { value: '12', label: 'Aventura', type: ['movies'] },
+  { value: '28', label: 'Ação', type: ['movies'] },
+  { value: '10770', label: 'Cinema TV', type: ['movies'] },
+  { value: '35', label: 'Comédia', type: ['movies', 'series'] },
+  { value: '80', label: 'Crime', type: ['movies', 'series'] },
+  { value: '99', label: 'Documentário', type: ['movies', 'series'] },
+  { value: '18', label: 'Drama', type: ['movies', 'series'] },
+  { value: '10751', label: 'Família', type: ['movies', 'series'] },
+  { value: '14', label: 'Fantasia', type: ['movies'] },
+  { value: '37', label: 'Faroeste', type: ['movies', 'series'] },
+  { value: '10762', label: 'Kids', type: ['series'] },
+  { value: '878', label: 'Ficção científica', type: ['movies'] },
+  { value: '10752', label: 'Guerra', type: ['movies'] },
+  { value: '36', label: 'História', type: ['movies'] },
+  { value: '9648', label: 'Mistério', type: ['movies', 'series'] },
+  { value: '10763', label: 'News', type: ['series'] },
+  { value: '10764', label: 'Reality', type: ['series'] },
+  { value: '10765', label: 'Sci-Fi e Fantasy', type: ['series'] },
+  { value: '10766', label: 'Soap', type: ['series'] },
+  { value: '10767', label: 'Talk', type: ['series'] },
+  { value: '10768', label: 'Politica e Guerra', type: ['series'] },
+  { value: '10402', label: 'Música', type: ['movies'] },
+  { value: '10749', label: 'Romance', type: ['movies'] },
+  { value: '27', label: 'Terror', type: ['movies'] },
+  { value: '53', label: 'Thriller', type: ['movies'] }
+]
+
+export default discoverGenresList

@@ -1,0 +1,22 @@
+@import "./base.scss";
+@import "./form";
+@import "./multiselect";
+@import "./notification";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.v-progressive-image-main {
+  width: 100%;
+  max-width: 400px;
+}
+
+label {
+  width: 100%;
+  font-weight: 300;
+  margin-bottom: 5px;
+}
+
+.router-link-active {
+  background: #f6be00;
+}
