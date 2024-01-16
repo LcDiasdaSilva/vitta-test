@@ -54,11 +54,11 @@ export default class Item {
       style: "currency",
       currency: "BRL",
     });
-    return formatPrice.format(Math.ceil(reference / 3000) > 20 ? Math.ceil(reference / 3000) : 0)
+    return formatPrice.format(Math.ceil(reference / 3000) > 20 ? Math.ceil(reference / 3000) : 20)
   }
 
   setPrice(reference: number): number {
-    return Math.ceil(reference / 3000) > 20 ? Math.ceil(reference / 3000) : 0
+    return Math.ceil(reference / 3000) > 20 ? Math.ceil(reference / 3000) : 20
   }
 
   getData() {
